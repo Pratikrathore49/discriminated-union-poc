@@ -1,7 +1,4 @@
-// ─────────────────────────────────────────────────────────────────────────────
-// Each state is its own type with a unique "status" literal.
-// TypeScript uses that literal to narrow the union inside if/switch blocks.
-// ─────────────────────────────────────────────────────────────────────────────
+
 
 export interface LoadingState {
   status: "loading";
